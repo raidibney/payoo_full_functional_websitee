@@ -55,42 +55,60 @@
     </header>
      <!--the login page is starting from here -->
     <section class="w-11/12 mx-auto gap-4 py-10 space-y-5">
-        <h2 class="text-3xl font-bold">Welcome to Pay<span class="text-primary">oo</span></h2>
-         <p class="text-neutral/50">Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+    <h2 class="text-3xl font-bold">
+        Welcome to Pay<span class="text-primary">oo</span>
+    </h2>
 
-         <div class="button grid grid-cols-3 flex-col gap-4">
-            <!--button 1-->
-             <div onclick="showonly('addmoneyy')" class="btn rounded-2xl flex-col w-[123px] h-[90px] btn-primary btn-soft"> 
-             <img src="./assets/opt-1.png" alt="">
-             <p>Add Money</p> 
-            </div> 
-             <!--button 2-->
-            <div onclick="showonly('cashout')" class="btn rounded-2xl flex-col w-[123px] h-[90px] btn-primary btn-soft"> 
-             <img src="./assets/opt-2.png" alt="">
-             <p>Cashout</p> 
-            </div>
-             <!--button 3-->
-             <div onclick="showonly('transfer-money')" class="btn rounded-2xl flex-col w-[123px] h-[90px] btn-primary btn-soft"> 
-             <img src="./assets/opt-3.png" alt="">
-             <p>Transfer Money</p> 
-            </div>
-            <!--button 4-->
-                <div onclick="showonly('bonus')" class="btn rounded-2xl flex-col w-[123px] h-[90px] btn-primary btn-soft"> 
-                <img src="./assets/opt-4.png" alt="">
-                <p>Get Bonus</p> </div>
+    <p class="text-neutral/50">
+        Enjoy easy and convenient financial services with us. Cashout charge is low and
+    </p>
 
-            <!--button 5-->
-            <div onclick="showonly('pay-bill')" class="btn rounded-2xl flex-col w-[123px] h-[90px] btn-primary btn-soft"> 
-                <img src="./assets/opt-5.png" alt="">
-                <p>Pay Bill</p>
-            </div>
+    <div class="button grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 justify-items-center">
 
-            <!--button 6-->
-            <div onclick="showonly('history')" class="btn rounded-2xl flex-col w-[123px] h-[90px] btn-primary btn-soft"> 
-                <img src="./assets/opt-6.png" alt="">
-                <p>Transaction</p>
-            </div>
-    </section>
+        <!--button 1-->
+        <div onclick="showonly('addmoneyy')" 
+        class="btn rounded-2xl flex-col w-full sm:w-[123px] h-[80px] sm:h-[90px] btn-primary btn-soft">
+            <img src="./assets/opt-1.png" alt="" class="w-8 sm:w-10">
+            <p class="text-xs sm:text-sm">Add Money</p>
+        </div>
+
+        <!--button 2-->
+        <div onclick="showonly('cashout')" 
+        class="btn rounded-2xl flex-col w-full sm:w-[123px] h-[80px] sm:h-[90px] btn-primary btn-soft">
+            <img src="./assets/opt-2.png" alt="" class="w-8 sm:w-10">
+            <p class="text-xs sm:text-sm">Cashout</p>
+        </div>
+
+        <!--button 3-->
+        <div onclick="showonly('transfer-money')" 
+        class="btn rounded-2xl flex-col w-full sm:w-[123px] h-[80px] sm:h-[90px] btn-primary btn-soft">
+            <img src="./assets/opt-3.png" alt="" class="w-8 sm:w-10">
+            <p class="text-xs sm:text-sm">Transfer Money</p>
+        </div>
+
+        <!--button 4-->
+        <div onclick="showonly('bonus')" 
+        class="btn rounded-2xl flex-col w-full sm:w-[123px] h-[80px] sm:h-[90px] btn-primary btn-soft">
+            <img src="./assets/opt-4.png" alt="" class="w-8 sm:w-10">
+            <p class="text-xs sm:text-sm">Get Bonus</p>
+        </div>
+
+        <!--button 5-->
+        <div onclick="showonly('pay-bill')" 
+        class="btn rounded-2xl flex-col w-full sm:w-[123px] h-[80px] sm:h-[90px] btn-primary btn-soft">
+            <img src="./assets/opt-5.png" alt="" class="w-8 sm:w-10">
+            <p class="text-xs sm:text-sm">Pay Bill</p>
+        </div>
+
+        <!--button 6-->
+        <div onclick="showonly('history')" 
+        class="btn rounded-2xl flex-col w-full sm:w-[123px] h-[80px] sm:h-[90px] btn-primary btn-soft">
+            <img src="./assets/opt-6.png" alt="" class="w-8 sm:w-10">
+            <p class="text-xs sm:text-sm">Transaction</p>
+        </div>
+
+    </div>
+</section>
 <!--add money section is starting from here-->
 <section id="addmoneyy" class="w-11/12 mx-auto py-5 hidden">
         <h1 class="text-2xl font-bold ">Add Money</h1>
